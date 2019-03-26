@@ -1,0 +1,19 @@
+{
+  "name": "convert-svg-to-base64",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "parcel watch src/index.html --no-hmr",
+    "build": "parcel build src/index.js --no-content-hash --no-hmr --no-minify",
+    "serve": "parcel serve src/index.html",
+    "convert": "node convert.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "btoa": "^1.2.1",
+    "less": "^3.9.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
